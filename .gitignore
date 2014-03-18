@@ -1,0 +1,36 @@
+# Numerous always-ignore extensions
+*.diff
+*.patch
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.swn
+*.vi
+*.pdf
+*~
+*.pyc
+*.key
+*.tgz
+*.tar.gz
+
+# OS or Editor folders and files
+.DS_Store
+thumbs.db
+*.egg-info/
+/__pycache__/
+/.cache/
+/.project/
+/.idea/
+/.pydevproject/
+/.settings/
+/backup/
+/import/
+/data/
+/data-replica/
+/data-arbiter/
+/sessions/
+/settings/
+settings
