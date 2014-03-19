@@ -8,4 +8,7 @@ def default_pyramid_view(request):
 
 @view_config(route_name='helloworld', renderer='templates/helloworld.pt')
 def hello_world_view(request):
-    return {'message': 'Hello cruel world!'}
+    return {
+        'request': request,
+        'message': 'Hello cruel world!'
+    }
