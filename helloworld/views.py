@@ -1,11 +1,11 @@
 from pyramid.view import view_config
 
 
-@view_config(route_name='home', renderer='templates/mytemplate.pt')
-def my_view(request):
+@view_config(route_name='home', renderer='templates/default_pyramid_template.pt')
+def default_pyramid_view(request):
     return {'project': 'HelloWorld'}
 
 
 @view_config(route_name='helloworld', renderer='templates/helloworld.pt')
-def my_view(request):
+def hello_world_view(request):
     return {'message': 'Hello cruel world!'}
